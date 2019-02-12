@@ -1,0 +1,948 @@
+@charset "utf-8";
+/*Css document*/
+
+@media(min-width: 992px) {
+
+*{
+	box-sizing: border-box;
+
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	background-image: url(../Pics/bridge.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.container{
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+	 
+.cabecera{
+
+	height: 180px;
+	margin: 10px 5px;
+	 
+}
+
+.titulo{
+	color: white;
+	height: auto;
+	font: 5vw "Dancing Script";
+	border: 1px solid white;
+	border-radius: 8px;
+	background-color: #4e7792;
+	text-shadow: 2px 3px 5px #02010a;
+	text-align: center;
+}
+
+.nav-box{
+		 
+	float: right;
+	clear: both;
+	border-bottom: 2px solid green;
+	 
+
+	}	
+
+.nav li{
+	text-align: left;
+	margin-top: 12px; 
+	margin-bottom: -7px;
+}
+
+.nav li a{
+	margin: 1px 0px 5px 0px;
+	text-align:left;
+	font: 1.8vw "Dancing Script"; 
+	color:#ceac41;
+	background-color: #334e60;
+	border: 1px solid #009e73;
+
+}
+.nav li a:hover{
+	width: 100%;
+	background:-webkit-linear-gradient(top, #3e2427 20%, #340e62 80%);	 
+	border: 2px solid #009e73;
+	color: #84ccc5;
+	border-bottom: none;
+}
+
+ 
+.row{
+	background: hsla(70, 30%, 60%, 0.6);
+}
+
+.contenido{
+	 margin: 0 auto;
+	background-color: #02010a;
+}
+
+.img-responsive{
+	margin: 10px 10px 10px -8px;
+	box-shadow: 4px 4px 2px #02010a;
+	display: flex;
+}
+#image1{
+	filter: blur(10px);
+}
+
+#image2, #image4, #image6{
+		filter: grayscale(100%);
+}
+
+#image3, #image5{
+	filter: sepia(90%);
+}
+
+#image1:hover, #image2:hover, #image3:hover, #image4:hover, #image5:hover, #image6:hover{
+filter: none;
+}
+  
+
+footer{
+		width: 100%;
+		height: 290px;
+		display: flex; 
+		float: left;
+		background: hsla(50, 30%, 49%, 0.5);
+		border-top: 2px solid #00CC99;
+}
+
+.contactos, .politicas, .redessociales, .derechos{
+	 
+	height: 250px;
+	float: left;
+	background-color: #C6d5c5;
+	margin: 15px 0px 10px 0px;
+	border: 1px solid  #00CC99;
+	border-radius: 8px;
+
+}
+
+.contactos h1, .politicas h1, .redessociales h1, .derechos h1{
+	text-align: center;
+	font: 2.5vw "Dancing Script";
+	margin: 5px 5px;
+	color:#340e62;
+}
+
+ 
+
+#email, #adress, #cellphone{
+	width: 32%;
+	height: 100px;
+	margin: auto;
+	margin-top: 30px;
+	float: left;
+	 
+}
+ 
+
+#email img, #adress img, #cellphone img{
+	
+	width: 70%;
+	height: 70px;
+	margin-left: 15%;
+	 
+}
+#adress img, #email img{
+	margin-top: 15px;
+}
+
+
+#cellphone div{
+	width: 85%;
+	height: 20px;
+	font: 1vw "Dancing Script";
+	float: left;
+	display: flex;
+	clear: both;
+	margin: 3% 0% 0% 7%;
+	color: #334e60;
+	 
+}
+
+ 
+/*twitter instagram facebook*/
+.redessociales nav{
+	width: 90%;
+	height: 140px;
+	display: flex;
+	margin: 0 auto; 
+}
+
+ 
+.redessociales nav li{
+	width: 40%;	
+	height: 45px;
+	list-style: none;
+	margin: 15% 1% 2% 1%;
+}
+
+.redessociales nav li a{
+	width: 100%;
+	height: 50px;		
+	display: inline; 
+}
+
+.redessociales nav li a img{
+	width: 100%;
+	filter: sepia(100%); 
+}
+
+.redessociales nav li a img:hover{
+	filter: sepia(0%);
+}
+
+.derechos p{
+	width: 90%;
+	height: 100px;
+	font: 2vw "Dancing Script";
+	text-align: center;
+	color: #334e60;
+	margin: 10px 2px 3px 2px ;
+}
+.politicas p{
+	width: 90%;
+	height: 150px;
+	font: 1.5vw "Dancing Script";
+	text-align: justify;
+	margin: 0 auto;
+	color: #009e73;
+
+}
+ 
+ #git{
+	width: 80%;
+	height: 50px;
+	margin: 20px auto;
+	text-align: center;
+ }
+
+#git a img{
+	width: 20%;
+	margin: auto;
+	height: 40px;
+}
+
+}
+/*Tamaño md con respecto a bootstrap*/
+@media(min-width: 768px) and (max-width: 991px){
+
+	
+body{
+	width: 100%;
+	background-image: url(../Pics/bridge.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+
+}
+
+.container{ 	
+	box-sizing:border-box;
+}
+
+.clearfix::after{
+	display: block;
+	content: "";
+	clear: both;
+
+}
+
+.cabecera{
+
+	width:100%;
+	height: 160px;
+	margin: 10px 5px;
+	background: hsla(2, 2%, 3%, 0.2);
+
+}
+
+.titulo{
+	color: white;
+	height: auto;
+	font: 7vw "Dancing Script";
+	border: 2px solid white;
+	border-radius: 8px;
+	margin: 0 auto;
+	background-color: #4e7792;
+	text-shadow: 2px 3px 5px #02010a;
+	text-align: center;
+}
+
+.nav-box{
+	height: 60px;
+	margin: 20px auto;
+	border-bottom: 2px solid green;
+}
+  .nav{
+  	height: 60px;
+	 
+	margin: 0px auto 5px auto;
+	 
+  }
+
+.nav li{
+	display: flex;
+	margin-bottom: -5px;
+}
+
+.nav li a{
+	margin: 1px 0px 5px 0px;
+	padding: 8px;
+	font: 2.6vw "Dancing Script";
+	position: relative;
+	color:#ceac41;
+	background-color: #334e60;
+	border: 1px solid #009e73;
+
+}
+.nav li a:hover{
+	width: 100%;
+	background:-webkit-linear-gradient(top, #3e2427 20%, #340e62 80%);	 
+	border: 2px solid #009e73;
+	color: #84ccc5;
+	border-bottom: none;
+}
+
+.row{
+	 
+	background: hsla(100, 35%, 56%, 0.3);
+}
+
+.contenido{
+	height: auto;
+	background-color: #02010a;
+}
+ 
+
+.img-responsive{
+	margin: 10px 2px 10px -8px;
+	box-shadow: 4px 4px 2px #02010a;
+}
+
+
+#image1{
+	filter: blur(10px);
+}
+
+#image2, #image4, #image6{
+		filter: grayscale(100%);
+}
+
+#image3, #image5{
+	filter: sepia(90%);
+}
+
+#image1:hover, #image2:hover, #image3:hover, #image4:hover, #image5:hover, #image6:hover{
+ filter: none;
+}
+
+
+footer{
+		width: 100%;
+		height: 560px;
+		display: inline;
+		float: left; 
+		background: hsla(50, 30%, 49%, 0.5);
+		border-top: 2px solid #00CC99;
+}
+
+.foot1, .foot2{
+	height: 250px;
+	display: flex;	 
+}
+
+.contactos, .politicas, .redessociales, .derechos{
+
+	height: 230px;
+	background-color: #C6d5c5;
+	margin: 15px 0px 9px 2px;
+	border: 1px solid  #00CC99;
+	border-radius: 8px;
+
+}
+
+.contactos h1, .politicas h1, .redessociales h1, .Derechos h1{
+	text-align: center;
+	font: 2.5vw "Dancing Script";
+	margin: 5px 5px;
+	color:#340e62;
+}
+
+ 
+
+#email, #adress, #cellphone{
+	width: 32%;
+	height: 100px;
+	margin: auto;
+	margin-top: 30px;
+	float: left;
+	 
+}
+ 
+
+#email img, #adress img, #cellphone img{
+	
+	width: 70%;
+	height: 70px;
+	margin-left: 15%;
+	 
+}
+#adress img, #email img{
+	margin-top: 15px;
+}
+
+
+#cellphone div{
+	width: 85%;
+	height: 20px;
+	font: 1vw "Dancing Script";
+	float: left;
+	display: flex;
+	clear: both;
+	margin: 3% 0% 0% 7%;
+	color: #334e60;
+	 
+}
+
+ 
+/*twitter instagram facebook*/
+.redessociales nav{
+	width: 100%;
+	height: 160px;
+	display: flex;
+	margin: 0 auto; 
+}
+
+ 
+.redessociales nav li{
+	width: 25%;	
+	height: 35px;
+	list-style: none;
+	margin-top: 15%; 
+}
+
+.redessociales nav li a{
+	width: 100%;
+	height: 50px;		
+	display: inline; 
+}
+
+.redessociales nav li a img{
+	width: 130%;
+	filter: sepia(100%); 
+}
+
+.redessociales nav li a img:hover{
+	filter: sepia(0%);
+}
+
+.derechos p{
+	width: 90%;
+	height: 100px;
+	font: 3vw "Dancing Script";
+	text-align: center;
+	color: #334e60;
+	margin: 10px 2px 3px 2px ;
+}
+
+.politicas p{
+	width: 90%;
+	height: 150px;
+	font: 2.6vw "Dancing Script";
+	text-align: justify;
+	margin: 0 auto;
+	color: #009e73;
+}
+
+#git{
+	width: 90%;
+	height: 70px;
+	text-align: center;
+	margin: auto;
+}
+
+#git a img{
+	width: 50%;
+	height: 60px;
+	margin-top: 10px;
+}
+}
+
+/*Small-devive-sm-bootstrap*/
+@media(max-width: 767px) and (min-width: 544px){
+
+body{
+	width: 100%;
+	background-image: url(../Pics/bridge.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+
+}
+
+.container{
+	width: 100%;
+
+}
+
+.cabecera{
+
+	width:100%;
+	height: 170px;
+	margin: 10px 5px;
+	background: hsla(2, 2%, 3%, 0.2);
+
+}
+	.title{
+		height:70px;
+		 
+	}	
+.titulo{
+	color: white;
+	height: auto;
+	font:5vw "Dancing Script";
+	border: 2px solid white;
+	border-radius: 8px;
+	margin: auto;
+	background-color: #4e7792;
+	text-shadow: 2px 3px 5px #02010a;
+	text-align: center;
+}
+.nav-box{
+	height: 22vh;
+}
+.nav{
+	height: 19vh;
+	margin: auto;
+	 
+}
+.nav li{
+	text-align: left;
+	display: inline;
+	
+}
+
+.nav li a{
+	margin: 15px 0px 5px 0px;
+	padding: 8px;
+	text-align:left;
+	font: 2.8vw "Dancing Script";
+	position: relative;
+	color:#ceac41;
+	background-color: #334e60;
+	border: 1px solid #009e73;
+
+}
+.nav li a:hover{
+	width: 100%;
+	background:-webkit-linear-gradient(top, #3e2427 20%, #340e62 80%);	 
+	border: 2px solid #009e73;
+	color: #84ccc5;
+	border-bottom: none;
+	border-top: none;
+}
+
+ 
+.row{
+	 
+	background: hsla(100, 35%, 56%, 0.3);
+}
+
+.contenido{
+	width: 900px;
+	height: auto;
+	background-color: #02010a;
+}
+
+.img-responsive{
+	margin: 10px 10px 10px -8px;
+	box-shadow: 4px 4px 2px #02010a;
+}
+
+#image1{
+	filter: blur(10px);
+}
+
+#image2, #image4, #image6{
+		filter: grayscale(100%);
+}
+
+#image3, #image5{
+	filter: sepia(90%);
+}
+
+#image1:hover, #image2:hover, #image3:hover, #image4:hover, #image5:hover, #image6:hover{
+ filter: none;
+}
+
+
+footer{
+		width: 100%;
+		height: auto;
+		display: flex; 
+		float: left;
+		background: hsla(50, 30%, 49%, 0.5);
+		border-top: 2px solid #00CC99;
+}
+
+.foot1, .foot2{
+	height: auto;
+}
+
+.contactos, .politicas, .redessociales, .derechos{
+
+	height: 230px;
+	float: left;
+	background-color: #C6d5c5;
+	margin: 30px 0px 10px 2px;
+	border: 1px solid  #00CC99;
+	border-radius: 8px;
+
+}
+
+.contactos h1, .politicas h1, .redessociales h1, .Derechos h1{
+	text-align: center;
+	font: 4.5vw "Dancing Script";
+	margin: 5px 5px;
+	color:#340e62;
+}
+
+ 
+
+#email, #adress, #cellphone{
+	width: 32%;
+	height: 100px;
+	margin: auto;
+	margin-top: 30px;
+	float: left;
+	 
+}
+ 
+
+#email img, #adress img, #cellphone img{
+	
+	width: 70%;
+	height: 70px;
+	margin-left: 15%;
+	 
+}
+#adress img, #email img{
+	margin-top: 15px;
+}
+
+
+#cellphone div{
+	width: 85%;
+	height: 20px;
+	font: 3vw "Dancing Script";
+	float: left;
+	display: flex;
+	clear: both;
+	margin: 3% 0% 0% 7%;
+	color: #334e60;
+	 
+}
+
+ 
+/*twitter instagram facebook*/
+.redessociales nav{
+	height: 100px;
+	display: flex;
+	margin: 5px 3px 5px 5px; 
+}
+
+ 
+.redessociales nav li{
+	height: auto;
+	list-style: none;
+	float: left;
+	margin: 10% 0% 2% 0%;
+}
+
+.redessociales nav li a{
+	width: 10%;
+	height: 50px;		
+	display: inline; 
+}
+
+.redessociales nav li a img{
+	width: 100%;
+	filter: sepia(100%); 
+}
+
+.redessociales nav li a img:hover{
+	filter: sepia(0%);
+}
+
+.derechos p{
+	width: 90%;
+	height: 100px;
+	font: 4vw "Dancing Script";
+	text-align: center;
+	color: #334e60;
+	margin: 30px 2px 3px 2px ;
+}
+.politicas p{
+	width: 90%;
+	height: 150px;
+	font: 3.5vw "Dancing Script";
+	text-align: justify;
+	margin: 0 auto;
+	margin-top: 20px;
+	color: #009e73;
+
+}
+
+#git{
+	width: 90%;
+	height: 70px;
+	text-align: center;
+	margin: auto;
+}
+#git a img{
+	width: 50%;
+	height: 60px;
+	margin-top: 10px;
+}
+
+}
+
+@media(max-width: 544px){
+
+	body{
+	width: 100%;
+	background-image: url(../Pics/bridge.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+
+}
+
+.container{
+	width: 100%;
+	height: auto;
+}
+
+.cabecera{
+
+	width:100%;
+	height: 95px;
+	margin: 10px 5px;
+	 
+	background: hsla(2, 2%, 3%, 0.2);
+
+}
+.titulo{
+	color: white;
+	font:6vw "Dancing Script";
+	border: 2px solid white;
+	border-radius: 8px;
+	background-color: #4e7792;
+	text-shadow: 2px 3px 5px #02010a;
+	text-align: center;
+}
+.nav-box{
+	height: auto;
+}
+
+  .nav{
+	 
+	margin: 7px 0px 5px 20px
+  }
+
+.nav li{
+	text-align: left;
+	display: flex;
+	
+}
+
+.nav li a{
+	margin: 15px 0px 5px 0px;
+	padding: 8px;
+	text-align:left;
+	font: 2.5vw "Dancing Script";
+	position: relative;
+	color:#ceac41;
+	background-color: #334e60;
+	border: 1px solid #009e73;
+
+}
+.nav li a:hover{
+	width: 100%;
+	background:-webkit-linear-gradient(top, #3e2427 20%, #340e62 80%);	 
+	border: 2px solid #009e73;
+	color: #84ccc5;
+	border-bottom: none;
+}
+
+ 
+.row{
+	 
+	background: hsla(100, 35%, 56%, 0.3);
+}
+
+.contenido{
+	width: 900px;
+	height: auto;
+	background-color: #02010a;
+}
+
+.img-responsive{
+	margin: 10px 10px 10px -8px;
+	box-shadow: 4px 4px 2px #02010a;
+}
+
+#image1{
+	filter: blur(10px);
+}
+
+#image2, #image4, #image6{
+		filter: grayscale(100%);
+}
+
+#image3, #image5{
+	filter: sepia(90%);
+}
+
+#image1:hover, #image2:hover, #image3:hover, #image4:hover, #image5:hover, #image6:hover{
+filter: none;
+}
+
+footer{
+		width: 100%;
+		height: auto;
+		display: flex; 
+		float: left;
+		background: hsla(50, 30%, 49%, 0.5);
+		border-top: 2px solid #00CC99;
+}
+
+.contactos, .politicas, .redessociales, .derechos{
+
+	height: 230px;
+	float: left;
+	background-color: #C6d5c5;
+	margin: 30px 0px 10px 2px;
+	border: 1px solid  #00CC99;
+	border-radius: 8px;
+
+}
+
+.contactos h1, .politicas h1, .redessociales h1, .Derechos h1{
+	text-align: center;
+	font: 3.5vw "Dancing Script";
+	margin: 5px 5px;
+	color:#340e62;
+}
+
+ 
+
+#email, #adress, #cellphone{
+	width: 32%;
+	height: 100px;
+	margin: auto;
+	margin-top: 30px;
+	float: left;
+	 
+}
+ 
+
+#email img, #adress img, #cellphone img{
+	
+	width: 70%;
+	height: 70px;
+	margin-left: 15%;
+	 
+}
+#adress img, #email img{
+	margin-top: 15px;
+}
+
+
+#cellphone div{
+	width: 85%;
+	height: 20px;
+	font: 3vw "Dancing Script";
+	float: left;
+	display: flex;
+	clear: both;
+	margin: 3% 0% 0% 7%;
+	color: #334e60;
+	 
+}
+
+ 
+/*twitter instagram facebook*/
+.redessociales nav{
+	width: 90%;
+	height: 140px;
+	display: flex;
+	margin: 0 auto; 
+}
+
+ 
+.redessociales nav li{
+	width: 40%;	
+	height: 45px;
+	list-style: none;
+	margin: 15% 1% 2% 1%;
+}
+
+.redessociales nav li a{
+	width: 100%;
+	height: 50px;		
+	display: inline; 
+}
+
+.redessociales nav li a img{
+	width: 100%;
+	filter: sepia(100%); 
+}
+
+.redessociales nav li a img:hover{
+	filter: sepia(0%);
+}
+
+.derechos p{
+	width: 90%;
+	height: 100px;
+	font: 4vw "Dancing Script";
+	text-align: center;
+	color: #334e60;
+	margin: 20px 2px 3px 2px ;
+}
+.politicas p{
+	width: 90%;
+	height: 150px;
+	font: 4vw "Dancing Script";
+	text-align: justify;
+	margin: auto;
+	margin-top: 15px;
+	color: #009e73;
+
+}
+#git{
+	width: 90%;
+	height: 70px;
+	text-align: center;
+	margin: auto;
+}
+#git a img{
+	width: 50%;
+	height: 60px;
+	margin-top: 10px;
+}
+
+}

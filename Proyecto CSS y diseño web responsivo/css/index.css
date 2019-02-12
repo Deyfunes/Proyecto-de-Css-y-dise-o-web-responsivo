@@ -1,0 +1,1061 @@
+@charset "utf-8";
+
+/*css document*/
+
+
+
+@media(min-width:900px) {
+
+body{
+	width: 100%;	
+	height: 960px;
+	background-image: url(../Pics/Globe.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+header{
+
+	width: 100%;
+	height: 190px;
+	margin: 5px 0px 5px 0px;
+	background: #5b7989;
+	border-bottom: 2px solid orange;
+}
+
+.title{
+    width: 100%;
+    height: 140px;
+    margin: 1px 2px 2px 1px;
+
+}
+
+
+
+.title h1{
+	width:30%; 
+	color: white;
+	height: 80px;
+	text-align: center;
+	font: 4.5vw "Dancing script";
+	float: left;
+	letter-spacing: 6px;
+	padding: 25px 0px 10px 5px;
+	margin: 15px 0px 1px 5px;
+	text-shadow: #02010a 2px 2px 2px;
+	border: 1px solid ;
+	border-radius: 15px;
+}
+
+#menu{
+	width: 28%;
+	height: 45px;
+	float: right;
+	clear: both;
+	margin: 12px 8px 1px 2px;	 
+}
+
+#menu nav{
+
+	width: 100%;
+	height: 40px;
+	text-align: center; 
+	margin: 5px 5px 1px 1px;
+}	
+
+#menu nav li{
+
+	height: 40px;
+	width: 34%;
+	font: 2vw "Dancing script";	
+	list-style: none; 
+	padding: 0px 0px 0px 0px;
+	margin: 3px -2px 1px -2px;
+	background: hsla(0, 1%, 1%, 0.2); 
+	border: 1px solid #009e73;
+	border-bottom: none;
+	display: inline;
+}
+
+#menu nav li a{
+	width: 100%;
+	height: 32px;
+	color: #33CC99;
+ 	text-decoration: none;
+ 	
+ 	padding: 0px 0px 4px 0px;
+ 	margin: 0px 3px 2px 2px;
+ 	
+}
+
+#menu nav li a:hover{
+	background-image: url(../Pics/Globe.jpg); 
+	padding: 1px 3px 4px 2px;
+	color: orange;
+	border-radius: 3px;
+	border: 1px solid orange;
+	margin: -1px;
+	border-bottom: none;
+}
+
+#menu nav li a img{
+ 	width: 20px;
+ 	height:20px;
+ 	padding-top: 5px;
+	margin: 0px;
+}
+
+#contenido{
+	width: 900px;
+	margin: 0 auto;
+	background-color:#02010a;
+	height: 760px;
+	margin: 15px auto 15px auto;	 
+}
+
+
+figure{
+	width: 94%;
+	height: 750px;
+	margin: 20px auto 20px auto;
+}
+
+button{
+	width: 7%;
+	height: 38px;
+	margin: 0px 2px 2px 4px;
+		 
+}
+/*boton1 de reproducir y boton2 para detener*/
+#boton1 img, #boton2 img{
+	width: 130%;
+	height: 31px;
+	border: 3px outset;
+	border-radius: 3px;
+	margin: -3px 0px 7px -8px;
+	filter: grayscale(100%);
+}
+
+#boton1 img:hover, #boton2 img:hover{
+	filter: grayscale(0%);
+	background-color:#669cc0;
+
+}
+#boton1 img:active, #boton2 img:active{
+	border: 3px inset;
+}
+
+#img1{
+	width: 100%;
+	height: 380px;
+	background-color: #82c3a6;
+	 
+}
+
+#img h1{
+	font: 3vw "Dancing Script";
+	text-align: center;
+	color: #334e60;
+
+}
+
+#img1 a img{
+	width: 80%;
+	height: 300px;
+	margin: 1% 10% 2% 10%;
+	box-shadow:  #02010a 2px 2px 2px;
+}
+
+.picture{
+	display: flex;
+	flex-direction: wrap;
+	margin: 20px 0px 10px 0px;
+}
+
+.img2, .img3{
+
+	width:50%;
+	height:320px;
+	color: #334e60;
+	background-color: #d5c75f;
+	border: 1px solid orange;
+}
+.img2 h1, .img3 h1{
+	width: 20%;
+	height: 30px;
+	font: 1.6vw "Dancing Script";
+	text-align: center;
+	margin: 5px auto 0px;
+	border: 1px solid
+}
+
+.img2 a img, .img3 a img{
+
+	width: 90%;
+	height: 260px;
+	margin:15px 0px 0px 20px;
+	box-shadow:  #02010a 2px 2px 2px;
+}
+
+.img2 a img:hover{
+
+	transform: rotate(10deg);
+	box-shadow: 5px 3px 5px #82c3a6;
+	border: 2px  solid green;
+
+	}
+
+.img3 a img:hover{
+	transform: translate(5px 20px);
+	box-shadow: 6px 4px 5px #82c3a6;
+	border:  2px solid orange;
+}
+
+footer{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	margin: 5px 2px 10px 0px;
+	float: left;
+	border-top: 2px solid orange; 
+	background-color: #C6d5c5;
+
+}
+
+ 
+
+#contactos, #politicas, #redes_sociales, #Derechos{
+	
+	width: 33%;
+	height: 240px;
+	float: left;
+	background:#C6d5c5;
+	border: 1px solid orange;
+	border-radius: 8px;
+	margin: 30px 10px 0px 10px;
+
+}
+ 
+
+#redes_sociales h1,#contactos h1, #politicas h1{ 
+
+	width: 100%;
+	font: 2vw "Dancing Script";
+	text-align: center;
+	color: #669cc0;
+	margin: 3px;
+
+}
+#email, #adress, #cellphone{
+	width: 32%;
+	height: 100px;
+	margin: auto;
+	margin-top: 30px;
+	float: left;
+	 
+}
+#email img, #adress img, #cellphone img{
+	
+	width: 70%;
+	height: 70px;
+	margin-left: 15%;
+	 
+}
+#adress img, #email img{
+	margin-top: 15px;
+}
+
+
+#cellphone div{
+	width: 100%;
+	height: 40px;
+	font: 1vw "Dancing Script";
+	float: left;
+	display: flex;
+	clear: both;
+	margin: 3% 0% 0% 7%;
+	color: #334e60;
+	 
+}
+#Derechos p{
+	color: #009e73;
+	text-align: center;
+	font: 2vw "Dancing Script";
+	margin-top: 50px;
+ }
+
+ #politicas p{
+ 	width: 80%;
+
+ 	text-align: justify-all;
+ 	margin: 15px auto 5px auto;
+ 	font: 1.5vw "Dancing script";
+ 	color: #009e73;
+
+ }
+
+#redes_sociales nav{
+
+	width: 90%;
+	height: 140px;
+	display: flex;
+	float: left;
+	margin: 3px 1px 3px 9px; 
+	
+}
+
+#redes_sociales nav li{
+
+	width: 22%;
+	list-style: none;
+	float: left;
+ 
+	margin: 10%  8% 10% 5%;
+	height: 80px;		
+
+}
+
+#redes_sociales nav li a{
+	width: 100%;
+	height: 50px;	
+	float: left;
+	margin: 0% 8% 0% 0%;
+	content: space-between;
+	 
+}
+
+#redes_sociales nav li a img{
+	width: 65%;
+	height: 47px;
+	margin: 50% 2% 0% 15%;
+	text-decoration: none;
+	float: left;
+	filter: grayscale(100%);
+
+}
+
+#redes_sociales nav li a img:hover{
+	filter: grayscale(0%);	
+	background-color: #84ccc5; 
+	width: 85%;
+}
+#git{
+	width: 90%;
+	height: 65px;
+	text-align: center;
+	margin: 2px auto 10px auto;
+}
+
+ #git a img{
+	width: 20%;
+	height: 60px;
+	 
+}
+
+
+}
+
+
+@media(min-width: 580px) and (max-width: 899px) {
+
+body{
+	width: 100%;	
+	height: 960px;
+	background-image: url(../Pics/Globe.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+header{
+
+	width: 100%;
+	height: 190px;
+	margin: 0px 0px 15px 0px;
+	background: #5b7989;
+	border-bottom: 2px solid #a9c41e;
+}
+
+.title{
+    width: 100%;
+    height: 140px;
+    margin: 1px auto 2px auto;
+
+}
+
+
+
+.title h1{
+	width:80%; 
+	color: white;
+	height: 80px;
+	text-align: center;
+	font: 7.5vw "Dancing script";
+	letter-spacing: 6px;
+	padding: 20px 0px 5px 5px;
+	margin: 15px auto 1px auto;
+	text-shadow: #02010a 2px 2px 2px;
+	border: 1px solid;
+	border-radius: 15px;
+}
+
+#menu{
+	width: 75%;
+	height: 55px;
+	clear: both;
+	margin: 21px auto 1px auto;	 
+}
+
+#menu nav{
+
+	width: 100%;
+	height: 50px;
+	text-align: center; 
+	 
+	margin: 8px 5px 1px 1px;
+}	
+
+#menu nav li{
+
+	height: 40px;
+	width: 34%;
+	font: 3.4vw "Dancing script";	
+	list-style: none; 
+	margin: 5px -2px 5px -2px;
+	background: hsla(0, 1%, 1%, 0.2); 
+	border: 1px solid #009e73;
+	border-bottom: none;
+	display: inline;
+}
+
+#menu nav li a{
+	width: 100%;
+	height: 30px;
+	color: #33CC99;
+ 	text-decoration: none;
+ 	padding-bottom: 0px;
+ 	margin: 0px 3px 2px 2px;
+ 	
+}
+
+#menu nav li a:hover{
+	background-image: url(../Pics/Globe.jpg); 
+	padding: 1px 3px 2px 2px;
+	color: orange;
+	border-radius: 3px;
+	border: 1px solid #a9c41e;
+	margin: -1px;
+	border-bottom: none;
+}
+
+#menu nav li a img{
+ 	width: 20px;
+ 	height:20px;
+
+ 	padding-top: 5px;
+	margin: 0px;
+}
+
+#contenido{
+	width: 100%;
+	margin: 0 auto;
+	background-color:#02010a;
+	height: 1120px;
+	display: flex;
+	margin: 15px auto; 
+}
+
+
+figure{
+	width: 94%;
+	height: 970px;
+	margin: 20px auto 20px auto;
+	
+}
+
+ 
+
+button{
+	width: 45px;
+	height: 38px;
+	margin: -2px 20px 1px 8px;	 
+	border: 2px solid;
+	border-radius: 4px;
+}
+/*botones reproducir y detener*/
+#boton1 img, #boton2 img{
+	width: 40px;
+	height: 38px;
+	border: 3px outset;
+	background-color: gray;
+	border-radius: 5px;
+	margin: -3px 0px -2px -8px;
+	filter: grayscale(100%);	
+}
+
+#boton1 img:hover{
+	filter: grayscale(0%);
+	background-color:#669cc0;
+	border-color: #009c73;
+}
+
+#boton2 img:hover{
+	 background-color: #e69f00;
+	filter: grayscale(0%);
+	border-color:#d55e00 ;	
+}
+
+ 
+
+#boton img:active{
+	border: 3px inset;
+}
+
+#img1{
+	width: 100%;
+	height: 380px;
+	background-color: #82c3a6;	 
+}
+ 
+
+#img1 a img{
+	width: 80%;
+	height: 300px;
+	margin: 2% 10% 2% 10%;
+}
+
+.picture{
+	height: 680px;
+	flex-direction: wrap;
+	margin: 20px 0px 10px 0px;
+}
+
+.img2, .img3{
+
+	width:100%;
+	height:340px;
+	background-color: #d5c75f;
+	border: 2px solid #a9c41e;
+}
+.img2 h1, .img3 h1{
+	font:3vw "Dancing Script";
+	text-align: center;
+	color: #660cc0;
+}
+
+.img2 a img, .img3 a img{
+
+	width: 90%;
+	height: 240px;
+	margin:10px 0px 0px 20px;
+}
+.img2 a img:hover{
+
+	transform: rotate(10deg);
+	box-shadow: 5px 3px 5px #82c3a6;
+	border: 2px  solid green;
+
+	}
+
+.img3 a img:hover{
+	transform: translate(20px, 5px);
+	box-shadow: 6px 4px 5px #82c3a6;
+	border:  2px solid orange;
+}
+
+footer{
+	width: 100%;
+	height: 590px;
+	margin: 0px 0px 15px 0px;
+	float: left;
+	border-top: 2px solid #a9c41e;
+	background-color: #C6d5c5;
+} 
+
+ 
+#contactos, #politicas, #redes_sociales, #Derechos{
+	
+	width: 46%;
+	height: 250px;
+	float: left;
+	border: 2px solid #a9c41e;
+	border-radius: 8px;
+	margin: 30px 0px 10px 10px;
+	
+}
+
+ 
+
+#redes_sociales h1,#contactos h1, #politicas h1{ 
+
+	width: 100%;
+	font: 3vw "Dancing script";
+	text-align: center;
+	color: #336699;
+	margin: 3px;
+
+}
+
+  
+#Derechos p{
+	width: 80%;
+	height:100px;
+	color: #009e73;
+	font: 2.6vw "Dancing Script";
+	text-align: center;
+	margin: 30px auto;
+
+ }
+#git{
+	width: 90%;
+	height: 70px;
+	text-align: center;
+	margin: auto;
+}
+#git a img{
+	width: 20%;
+	height: 65px;
+}
+
+#politicas p{
+	width: 80%;
+	height:100px;
+	margin: 20px auto;
+	color: #009e73;
+	font: 2.6vw "Dancing Script";
+	text-align: justify;
+}
+
+ 
+ #cellphone, #adress, #email{
+ 	width: 32%;
+ 	height: 90px;
+ 	text-align: center;
+ 	margin-top: 30px;
+ 	float: left;
+ }
+
+#email img, #adress img, #cellphone img{
+	
+	width: 50%;
+	height: 50px;
+	margin-left: 15%;
+	 
+}
+#adress img, #email img{
+	margin-top: 15px;
+}
+
+
+#cellphone div{
+	width: 100%;
+	height: 20px;
+	font: 2.2vw "Dancing Script";
+	float: left;
+	clear: both;
+	text-align: center;
+	margin: 0% 3% 0% 20%; 
+	color: #340e62;
+	 
+}
+
+#redes_sociales nav{
+
+	width: 70%;
+	height: 140px;
+	text-align: center;
+	display: flex;
+	margin: 35px auto 3px auto; 
+	
+}
+
+#redes_sociales nav li{
+
+	width: 100%;
+	list-style: none;
+	text-align: center;
+	margin: 24%  8% 24% 5%;
+	height: 40px;		
+
+}
+
+#redes_sociales nav li a{
+	width: 100%;
+	height: 30px;	
+	display: inline;
+	margin: 0% 8% 0% 0%;
+	content: space-between;
+	 
+}
+
+#redes_sociales nav li a img{
+	width: 100%;
+	height: 30px;
+	margin: 4% 5% 0% 1%;
+	text-decoration: none;
+	filter: grayscale(100%);
+}
+
+#redes_sociales nav li a img:hover{
+	filter: grayscale(0%);	
+	width: 100%;
+}
+
+}
+
+
+@media (max-width: 579px){
+
+body{
+	width: 100%;	
+	height: 960px;
+	background-image: url(../Pics/woodpainted.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+header{
+
+	width: 98%;
+	height: 125px;
+	margin: 0px 0px 15px 2px;
+	background: #5b7989;
+	border-bottom: 2px solid #340e62;
+}
+
+.title{
+    width: 100%;
+    height: 90px;
+    margin: 1px 2px 2px 1px;
+
+}
+
+.title h1{
+	width:80%; 
+	color: white;
+	height: 40px;
+	text-align: center;
+	font: 5vw "Dancing script";
+	letter-spacing: 6px;
+	padding: 15px 0px 10px 5px;
+	margin: 15px auto 1px auto;
+	text-shadow: #02010a 2px 2px 2px;
+	border: 1px solid ;
+	border-radius: 15px;
+}
+
+#menu{
+	width: 75%;
+	height: 70px;
+	margin: 0px auto 0px auto;	 
+}
+
+#menu nav{
+
+	width: 100%;
+	height: 60px;
+	float: left;
+	text-align: center; 
+	margin: 10px 8px 1px 1px;
+}	
+
+#menu nav li{
+
+	height: 50px;
+	width: 36%;
+	font: 3.5vw "Dancing script";	
+	list-style: none; 
+	padding: 0px 0px 0px 0px;
+	margin: 3px -2px 1px -2px;
+	background: hsla(0, 1%, 1%, 0.2); 
+	border: 1px solid #340e62;
+	display: inline;
+
+	border-bottom: none;
+}
+
+#menu nav li a{
+	width: 100%;
+	height: 45px;
+	color: #33CC99;
+ 	text-decoration: none;
+ 	padding: 0px 0px 4px 0px;
+ 	margin: 0px 3px 2px 2px;
+ 	
+}
+
+#menu nav li a:hover{
+	background-image: url(../Pics/woodpainted.jpg); 
+	padding: 1px 3px 4px 2px;
+	color: orange;
+	border-radius: 3px;
+	border: 1px solid #f5022d;
+	margin: -1px;
+	border-bottom: none;
+}
+
+#menu nav li a img{
+ 	width: 10%;
+ 	height:19px;
+	margin: 0px;
+}
+
+#contenido{
+	width: 100%;
+	margin: 0 auto;
+	background-color:#02010a;
+	height: 980px;
+	margin: 15px auto; 
+}
+
+
+figure{
+	width: 94%;
+	height: 810px;
+	margin: 20px auto 20px auto;
+	
+}
+
+ 
+button{
+	width: 32px;
+	height: 27px;
+	margin: -2px 20px 1px 8px;	 
+	border: 2px solid;
+	border-radius: 4px;
+}
+/*botones reproducir y detener*/
+#boton1 img, #boton2 img{
+	width: 30px;
+	height: 27px;
+	border: 3px outset;
+	background-color: gray;
+	border-radius: 5px;
+	margin: -3px 0px -2px -8px;
+	filter: grayscale(100%);	
+}
+
+#boton1 img:hover{
+	filter: grayscale(0%);
+	background-color:#669cc0;
+	border-color: #009c73;
+}
+
+#boton2 img:hover{
+	 background-color: #e69f00;
+	filter: grayscale(0%);
+	border-color:#d55e00 ;	
+}
+
+ 
+
+#boton img:active{
+	border: 3px inset;
+}
+
+#img1{
+
+	width: 100%;
+	height: 380px;
+	background-color: #82c3a6;	 
+}
+
+#img1 a img{
+	width: 80%;
+	height: 300px;
+	margin: 2% 10% 2% 10%;
+}
+
+.picture{
+	width:100%;
+	margin: 20px auto 10px auto;
+}
+
+.img2, .img3{
+
+	width:100%;
+	height:280px;
+	background-color: #d5c75f;
+	 
+	margin: 3px 5px 5px 0px;
+	border: 2px solid #340e62;
+}
+
+.img2 h1, .img3 h1{
+	font: 3vw "Dancing Script";
+	text-align: center;
+	margin: auto;
+	color: #663399;
+}
+
+.img2 a img, .img3 a img{
+
+	width: 96%;
+	height: 200px;
+	margin: 15px 10px 0px 10px;
+}
+
+.img2 a img:hover{
+
+	transform: rotate(10deg);
+	box-shadow: 5px 3px 5px #82c3a6;
+	border: 2px  solid green;
+
+	}
+
+.img3 a img:hover{
+	transform: translate(20px, 5px);
+	box-shadow: 6px 4px 5px #82c3a6;
+	border:  2px solid orange;
+}
+
+footer{
+	width: 98%;
+	height: 720px;
+	display: block;
+	margin: 0px 0px 15px 2px;
+	float: left;
+	background-color: #C6d5c5;
+}
+
+ 
+
+#contactos, #politicas, #redes_sociales, #Derechos{
+	
+	width: 90%;
+	height: 140px;
+	text-align: center;
+	background: hsla(150, 40%, 50%, 0.3);
+	border: 1px solid #a11826;
+	border-radius: 8px;
+	margin: 20px auto 20px auto;
+
+}
+
+#redes_sociales h1,#contactos h1, #politicas h1{ 
+
+	width: 100%;
+	font: 5vw "Dancing script";
+	float: left;
+	text-align: center;
+	color: #336699;
+	margin: 4px;
+
+}
+
+ 
+
+/*Iconos TElEFONO DIRECCION Y CORREO*/
+
+#cellphone, #adress, #email{
+ 	width: 30%;
+ 	height: 100px;
+ 	float: left;
+ 	margin-left: 8px; 
+ 	 
+
+ }
+
+#email img, #adress img, #cellphone img{
+	
+	width: 70%;
+	height: 70px;
+	margin-left: 12%;
+	 
+}
+#adress img, #email img{
+	margin-top: 15px;
+}
+
+
+#cellphone div{
+	width: 85%;
+	height: 20px;
+	font: 3vw "Dancing Script";
+	float: left;
+	display: flex;
+	clear: both;
+	margin: 3% 0% 0% 7%;
+	color: #334e60;
+	 
+}
+
+
+#Derechos p{
+	width: 90%;
+	height: 50px;
+ 	color: #334e60;
+   	margin: 10px 0px 0px 20px;
+   	float: left;
+ 	font: 4vw "Dancing Script";
+
+ }
+
+ /*Icono de github*/
+ #git{
+ 	width: 90%;
+ 	height: 60px;
+ 	margin: auto;
+ 	text-align: center;
+ }
+
+#git a img{
+	width: 20%;
+	height: 60px;
+	margin-top: 10px;
+}
+
+ #politicas p{
+ 	width: 90%;
+ 	text-align: justify;
+ 	margin: auto;
+ 	font: 3.5vw "Dancing Script";
+ 	color:#334e60;
+
+ }
+ 
+
+#redes_sociales nav{
+
+	width: 100%;
+	height: 60px;
+	float: left;	 
+}
+
+#redes_sociales nav li{
+
+	width: 22%;
+	list-style: none;
+	display: flex;
+	float: left;
+	height: 50px;
+	margin: 5%;		
+}
+
+#redes_sociales nav li a{
+
+	width: 95%;
+	height: 35px;	
+	 
+}
+
+#redes_sociales nav li a img{
+
+	width: 100%;
+	height: 50px; 
+	text-decoration: none;
+	filter: grayscale(100%);
+
+}
+
+#redes_sociales nav li a img:hover{
+	filter: grayscale(0%);	
+	width: 100%;
+}
+
+}

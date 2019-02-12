@@ -1,0 +1,779 @@
+/* CSS Document */
+@charset "utf-8";
+
+/*Paisaje estilos*/
+
+@media(min-width:900px){
+
+
+body{
+	margin: 0px;
+	width: 100%;
+	background-image: url(../Pics/sunset.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+header{
+	width: 100%;
+	height: 160px;
+	background-color: #7e9495;
+	margin: 0px 5px 15px 5px;
+	border-bottom: 2px solid #00CC99;
+}
+
+header h1{
+	width: 27%;
+	height: 80px;
+	color: #d1ece9;
+	font: 5vw "Dancing script";
+	margin: 10px 0px 5px 5px;
+	float: left;
+	padding: 5px 0px 5px 0px;
+	text-align: center;
+	text-shadow: 3px 2px 3px  #009e73;
+	border: 1px solid;
+	border-radius: 5px ;
+
+}
+
+.menu{
+	width: 30%;
+	height: 55px;
+	float: right;
+	clear: both;
+	margin: 0px 10px 0px 2px;
+}
+
+.menu nav{
+	width: 100%;
+	height: 53px;
+	text-align: center;
+	display:flex;
+	margin: 1px 0px 12px 0px;
+}
+
+.menu nav li{
+	width: 32%;
+	height: 30px;
+	font: 1.8vw "Dancing script";
+	list-style: none;
+	padding: 5px 5px;
+	margin: 13px 0px 0px 0px;
+	border: 1px solid #00CC99; 
+	background-color: #3e2427;
+}
+
+.menu nav li a{
+	height: 55px;
+	list-style: none;
+	text-decoration: none;
+	margin:0px ;
+	padding: 5px 2px;
+	color: #CC9900;	
+	
+}
+
+.menu nav li:hover{
+	color: orange;
+	background: -webkit-linear-gradient(top, #340e62 20%, #7e9495 80%);
+ 	padding:5px;
+	border-bottom: none; 
+	 
+}
+
+
+.menu nav li:nth-child(1){
+	border-top-left-radius: 25px;
+}
+ 
+.menu nav li:nth-child(3){
+	border-top-right-radius: 25px;
+}
+
+
+#contenido{
+	width: 900px;
+	height: 760px;
+	display: flex;
+	margin: auto;
+	background-color: #02010a;
+}
+
+section{
+	width:96%; 
+	margin: 20px 0px 20px 0px; 
+	height: 710px;
+	margin: auto;
+	background-color: #009e73;
+}
+
+.gallery{
+	width: 100%;
+	height:690px;
+	margin: auto;
+	float: left;
+	 
+}
+
+#pic1, #pic2, #pic3, #pic4, #pic5, #pic6{
+	width:31%;
+	height: 320px;
+	margin: 8px;
+	float: left;
+}
+
+#pic1 a img, #pic2 a img, #pic3 a img, #pic4 a img, #pic5 a img, #pic6 a img{
+	width: 100%;
+	height: 320px;
+	box-shadow: #02010a 2px 2px 2px;
+}
+
+#pic1 a img{
+	filter: blur(10px);
+}
+
+#pic2 a img, #pic4 a img, #pic6 a img{
+	filter: grayscale(100%);
+}
+
+#pic3 a img, #pic5 a img{
+	filter: sepia(90%);
+}
+#pic1 a img:hover, #pic2 a img:hover, #pic3 a img:hover, #pic4 a img:hover,#pic5 a img:hover,#pic6 a img:hover{
+	filter: none;
+}
+
+footer{
+		width: 100%;
+		height: 260px;
+		display: flex; 
+		border-top: 2px solid #00CC99;
+}
+
+#contactos, #politicas, #redessociales, #derechos{
+
+	width: 24%;
+	height: 210px;
+	float: left;
+	background-color: #C6d5c5;
+	margin: 30px 0px 10px 8px;
+	border: 1px solid  #00CC99;
+	border-radius: 8px;
+
+}
+
+#contactos h1, #politicas h1, #redessociales h1, #Derechos h1{
+	text-align: center;
+	font: 2.5vw "Dancing Script";
+	margin: 5px 5px;
+	color:#340e62;
+}
+
+ 
+
+#email, #adress, #cellphone{
+	width: 32%;
+	height: 100px;
+	margin: auto;
+	margin-top: 30px;
+	float: left;
+	 
+}
+ 
+
+#email img, #adress img, #cellphone img{
+	
+	width: 70%;
+	height: 70px;
+	margin-left: 15%;
+	 
+}
+#adress img, #email img{
+	margin-top: 15px;
+}
+
+
+#cellphone div{
+	width: 85%;
+	height: 20px;
+	font: 1vw "Dancing Script";
+	float: left;
+	display: flex;
+	clear: both;
+	margin: 3% 0% 0% 7%;
+	border: 1px solid; 
+	color: #334e60;
+	 
+}
+
+ 
+/*twitter instagram facebook*/
+#redessociales nav{
+	width: 80%;
+	height: 140px;
+	display: flex;
+	margin: 0 auto; 
+}
+
+ 
+#redessociales nav li{
+	width: 40%;	
+	height: 45px;
+	list-style: none;
+	margin: 12% 6% 2% 6%;
+}
+
+#redessociales nav li a{
+	width: 100%;
+	height: 50px;		
+	display: inline; 
+}
+
+#redessociales nav li a img{
+	width: 100%;
+	filter: sepia(100%); 
+}
+
+#redessociales nav li a img:hover{
+	filter: sepia(0%);
+}
+
+#derechos p{
+	width: 90%;
+	height: 100px;
+	font: 2vw "Dancing Script";
+	text-align: center;
+	color: #334e60;
+	margin: 10px 2px 3px 2px ;
+}
+#politicas p{
+	width: 90%;
+	height: 150px;
+	font: 1.5vw "Dancing Script";
+	text-align: justify;
+	margin: 0 auto;
+	color: #009e73;
+
+}
+#git{
+	width: 90%;
+	height: 60px;
+	text-align: center;
+	margin: auto;
+}
+#git a img{
+	width: 20%;
+	height: 60px;
+}
+
+
+}
+
+@media(min-width: 580px) and (max-width: 899px){
+	
+body{
+	margin: 0px;
+	width: 100%;
+	background-image: url(../Pics/serenity.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+
+header{
+	width: 100%;
+	height: 160px;
+	background-color: #7e9495;
+	margin: 0px 5px 15px 5px;
+	border-bottom: 2px solid #fd720f;
+}
+
+header h1{
+	width: 27%;
+	height: 80px;
+	color: #d1ece9;
+	font: 5vw "Dancing script";
+	margin: 0 auto;
+	padding: 15px 0px 1px 0px;
+	text-align: center;
+	text-shadow: 3px 2px 3px  #009e73;
+	border: 1px solid;
+	border-radius: 5px ;
+
+}
+
+.menu{
+	width: 35%;
+	height: 53px;
+	clear: both;
+	 
+	margin: 26px auto 0px auto;
+}
+
+.menu nav{
+	width: 100%;
+	height: 32px;
+	text-align: center;
+	margin: 15px 0px 0px 0px;
+}
+
+.menu nav li{
+	width: 32%;
+	height: 30px;
+	font: 2.4vw "Dancing script";
+	display: inline;
+	float: left;
+	padding-top: 5px;
+	margin: 1px; 
+ }
+
+.menu nav li a{
+	width: 100%;
+	height: 25px;
+	list-style: none;
+	text-decoration: none;
+	float: left;
+	background:-webkit-linear-gradient(top, gray 20%, #008e73 80%);
+	padding-top: 5px;
+	border: 1px solid;
+	 
+}
+
+.menu nav li a:hover{
+	color: orange;
+	background:-webkit-linear-gradient(top, #3e2427 20%, gray 80%);
+	border-bottom: none;
+	padding-bottom: 1px;
+ }
+
+ .menu nav li a:nth-child{
+ 	border-top-right-radius: 20px;
+ }
+
+#contenido{
+	width: 100%;
+	height: 840px;
+	display: flex;
+	margin: auto;
+}
+
+section{
+	width: 100%; 
+	background-color: #02010a;
+	position: relative;
+	margin: 5px 0px 5px 0px;
+	height: 850px;
+}
+
+.gallery{
+	width: 96%;
+	margin: auto;
+	background-color: #4e7792;
+	height: 840px;
+	 
+}
+
+#pic1, #pic2, #pic3, #pic4, #pic5, #pic6{
+	width: 47%;
+	height: 260px;
+	margin: 8px;
+	float: left;
+}
+
+#pic1 a img, #pic2 a img, #pic3 a img, #pic4 a img, #pic5 a img, #pic6 a img{
+	width: 100%;
+	height: 260px;
+	display: flex;
+	box-shadow:  #02010a 2px 2px 2px;
+}
+
+#pic1 a img{
+	filter: blur(10px);
+	box-shadow:  #02010a 2px 2px 2px;
+}
+#pic2 a img, #pic4 a img, #pic6 a img{
+	filter: grayscale(100%);
+}
+
+#pic3 a img, #pic5 a img{
+	filter: sepia(90%);
+}
+#pic1 a img:hover, #pic2 a img:hover, #pic3 a img:hover, #pic4 a img:hover,#pic5 a img:hover,#pic6 a img:hover{
+	filter: none;
+}
+
+footer{
+		width: 100%;
+		height: 260px;
+		float: left;
+		border-top: 2px solid #fd720f;
+
+}
+
+#contactos, #politicas, #redessociales, #derechos{
+
+	width: 46%;
+	height: 170px;
+	float: left;
+	background-color: #C6d5c5;
+	margin: 30px 0px 10px 10px;
+	border: 1px solid orange;
+	border-radius: 8px;
+
+}
+
+#contactos h1, #politicas h1, #redessociales h1, #derechos h1{
+	text-align: center;
+	font: 2.5vw "Dancing Script";
+	margin: 5px 5px;
+	color: #CC6633;
+}
+#email, #adress, #cellphone{
+	width: 32%;
+	height: 100px;
+	margin: auto;
+	margin-top: 15px;
+	float: left;
+	 
+}
+ 
+
+#email img, #adress img, #cellphone img{
+	
+	width: 70%;
+	height: 70px;
+	margin-left: 15%;
+	 
+}
+#adress img, #email img{
+	margin-top: 15px;
+}
+
+
+#cellphone div{
+	width: 90%;
+	height: 20px;
+	font: 2vw "Dancing Script";
+	float: left;
+	display: flex;
+	clear: both;
+	margin: 3% 0% 0% 7%;
+	border: 1px solid; 
+	color: #334e60;
+}
+
+#redessociales nav{
+	width: 80%;
+	height: 300px;
+	display: flex;
+	margin: auto;
+}
+
+#redessociales nav li{
+	width: 26%;	
+	height: 35px;
+	list-style: none;
+	margin: 12% auto 2% auto;
+}
+
+#redessociales nav li a{
+	width: 70%;
+	height: 50px;		 
+}
+
+#redessociales nav li a img{
+	width: 100%;
+	filter: sepia(100%); 
+}
+
+#redessociales nav li a img:hover{
+	filter: none;
+}
+ 
+ 
+ #politicas p{
+ 	width: 90%;
+	height:160px;
+	color: #334e60;
+	font: 2.5vw "Dancing Script";
+	margin: auto;
+	 
+	
+ }
+ #derechos p{
+ 	width: 80%;
+ 	font: 3vw "Dancing Script";
+ 	text-align: center;
+ 	margin: auto;
+ 	color: #334e60;
+ }
+
+#git{
+	width: 90%;
+	height: 70px;
+	text-align: center;
+	margin: auto;
+}
+
+ #git a img{
+	width: 50%;
+	height: 60px;
+	margin-top: 10px;
+}
+
+}
+
+
+
+/*Tablet Mode*/
+@media(max-width: 579px){
+
+body{
+	width: 100%;
+	background-image: url(../Pics/bridge.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+}
+
+header{
+	width: 100%;
+	height: 150px;
+	background-color: #7e9495;
+	margin: 0px 5px 15px 5px;
+	padding-top: 4px;
+	border-bottom: 2px solid #fd720f;
+}
+
+header h1{
+	width: 27%;
+	height: 60px;
+	color: #d1ece9;
+	font: 5vw "Dancing script";
+	margin: 5px auto;
+	padding: 25px 0px 3px 0px;
+	text-align: center;
+	text-shadow: 3px 2px 3px  #009e73;
+	border: 1px solid;
+	border-radius: 5px ;
+}
+
+.menu{
+	width: 75%;
+	height: 53px;
+	clear: both;
+	margin: 19px auto 0px auto;
+}
+
+.menu nav{
+	width: 100%;
+	height: 32px;
+	text-align: center;
+	margin: 15px 0px 0px 0px;
+}
+
+.menu nav li{
+	width: 32%;
+	font: 4.2vw "Dancing script";
+	display: inline;
+	float: left;
+	padding-top: 5px;
+	margin: 1px; 
+ }
+
+.menu nav li a{
+	width: 100%;
+	height: 25px;
+	color: #dddddd;
+	list-style: none;
+	text-decoration: none;
+	float: left;
+	background:-webkit-linear-gradient(top, gray 20%, #334e60 80%);
+	padding-top: 5px;
+	border: 1px solid;
+	 
+}
+
+.menu nav li a:hover{
+	color: orange;
+	background:-webkit-linear-gradient(top, #3e2427 20%, gray 80%);
+	border-bottom: none;
+	padding-bottom: 1px;
+ }
+
+
+#contenido{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background-color: #02010a;
+}
+
+section{
+	width: 90%; 
+	background-color: #ceac41;
+	margin: auto;
+	height: auto;
+}
+
+.gallery{
+	width: 90%;
+	margin: auto;
+	height: 1040px;
+	 
+}
+
+#pic1, #pic2, #pic3, #pic4, #pic5, #pic6{
+	width: 90%;
+	height: 160px;
+	margin: 4px 15px;
+	float: left;
+}
+
+#pic1 a img, #pic2 a img, #pic3 a img, #pic4 a img, #pic5 a img, #pic6 a img{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	box-shadow: 2px 2px 2px #02010a;
+	border: 3px solid green;
+}
+
+#pic1 a img{
+	filter: blur(10px);
+}
+#pic2 a img, #pic4 a img, #pic6 a img{
+	filter: grayscale(100%);
+}
+
+#pic3 a img, #pic5 a img{
+	filter: sepia(90%);
+}
+#pic1 a img:hover, #pic2 a img:hover, #pic3 a img:hover, #pic4 a img:hover,#pic5 a img:hover,#pic6 a img:hover{
+	filter: none;
+}
+
+footer{
+		width: 100%;
+		height: 560px;
+		float: left;
+		border-top: 2px solid #fd720f;
+
+}
+
+#contactos, #politicas, #redessociales, #derechos{
+	 width: 90%;
+	height: 150px;
+	text-align: center;
+	background-color: #C6d5c5;
+	border: 1px solid;
+	border-radius: 8px;
+	margin: 20px auto 20px auto;
+ 
+}
+
+#contactos h1, #politicas h1, #redessociales h1, #derechos h1{
+	text-align: center;
+	font: 4.5vw "Dancing Script";
+	margin: 5px 5px;
+	color: #CC6633;
+}
+
+#email, #adress, #cellphone{
+	width: 32%;
+	height: 100px;
+	margin: auto;
+	margin-top: 7px;
+	float: left;
+	 
+}
+ 
+
+#email img, #adress img, #cellphone img{
+	
+	width: 70%;
+	height: 70px;
+	margin-left: 15%;
+	 
+}
+#adress img, #email img{
+	margin-top: 15px;
+}
+
+
+#cellphone div{
+	width: 100%;
+	height: 20px;
+	font: 3.7vw "Dancing Script";
+	float: left;
+	display: flex;
+	clear: both;
+	margin: 3% 0% 0% 10%;
+	text-align: center;
+	color: #334e60;
+}
+
+#redessociales nav{
+	width: 80%;
+	height: 300px;
+	display: flex;
+	margin: auto;
+}
+
+#redessociales nav li{
+	width: 26%;	
+	height: 35px;
+	list-style: none;
+	margin: 12% auto 2% auto;
+}
+
+#redessociales nav li a{
+	width: 70%;
+	height: 50px;		 
+}
+
+#redessociales nav li a img{
+	width: 100%;
+	filter: sepia(100%); 
+}
+
+#redessociales nav li a img:hover{
+	filter: sepia(0%);
+}
+ 
+ 
+ #politicas p{
+ 	width: 90%;
+	height:160px;
+	color: #009966;
+	font: 3.8vw "Dancing Script";
+	text-align: justify-all;
+	margin: 5px auto;
+	 
+ }
+ #derechos p{
+ 	width: 80%;
+ 	height: 50px;
+ 	text-align: justify-all;
+ 	margin:15px auto;
+ 	font: 5vw "Dancing Script";
+ 	color: #334e60;
+ }
+ 
+ #git{
+ 	width: 90%;
+ 	height: 70px;
+ 	text-align: center;
+ 	margin: auto;
+ }
+#git a img{
+	width: 20%;
+	height: 60px;
+	margin-top: 10px;
+}
+
+}
